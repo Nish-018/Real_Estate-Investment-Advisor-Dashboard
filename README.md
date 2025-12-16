@@ -29,10 +29,10 @@ An interactive data-driven dashboard built to assist investors and analysts in e
 -Crime rate alone is not a decisive factor, but acts as a supporting risk indicator
 -Multi-factor analysis leads to better investment classification
 
-6.Tech Stack: Python, Pandas & NumPy – Data processing, Matplotlib / Plotly – Visualizations, Streamlit – Interactive dashboard
+6. Tech Stack: Python, Pandas & NumPy – Data processing, Matplotlib / Plotly – Visualizations, Streamlit – Interactive dashboard
 
 
- 7. Use Cases
+7. Use Cases
 -Real estate investors
 -Data analytics & ML portfolios
 -Academic projects (EDA, visualization, regression/classification)
