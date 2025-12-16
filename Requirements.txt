@@ -1,9 +1,9 @@
 # requirements.txt
-streamlit
-pandas
-numpy
-plotly
-scikit-learn
+import streamlit
+import pandas
+import numpy
+import plotly
+import scikit-learn
 git add requirements.txt
 git commit -m "Add requirements for Streamlit deployment"
 git push
