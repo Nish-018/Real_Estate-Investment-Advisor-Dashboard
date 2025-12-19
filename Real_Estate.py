@@ -5,7 +5,8 @@ from PIL import Image
 import plotly.express as px
 import plotly.graph_objects as go
 
-df = pd.read_excel(r"C:\Users\HP\VS code Streamlit\Ind_Real_Estate.xlsx")
+url = "https://docs.google.com/spreadsheets/d/1bI5mnYxAeBzsnob5_Bsli9t2EK0h_c8e/edit?usp=drive_link&ouid=118003842426414287987&rtpof=true&sd=true"
+df = pd.read_excel(url)
 
 st.set_page_config(layout = "wide")
 st.markdown("<style>div.block-container{padding-top:1rem;}</style>",unsafe_allow_html=True)
@@ -192,5 +193,6 @@ if corr_value is None or pd.isna(corr_value):
     st.info("Not enough variation in the data to compute correlation.")
 else:
     st.success(f"Relationship between Infrastructure Score and Resale Value: {corr_value:.4f}")
+
 
 
