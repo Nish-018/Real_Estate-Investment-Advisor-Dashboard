@@ -1,11 +1,6 @@
-
 streamlit
 pandas
 numpy
 plotly
-git add requirements.txt
-git commit -m "Add plotly dependency"
-git push
-git add requirements.txt
-git commit -m "Fix dependency install error"
-git push
+scikit-learn
+joblib
